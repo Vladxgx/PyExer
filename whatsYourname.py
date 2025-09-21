@@ -5,6 +5,6 @@ def check_name(MyName):
     if MyName != "Vlad":
         return f"Lier,  your name is not {MyName}, it's Vlad."
 # what happens when correct name
-print(name("Vlad"))
+print(check_name("Vlad"))
 # what happens when incorrect name
-print(name("Jack"))
+print(check_name("Jack"))
