@@ -1,5 +1,5 @@
 # Function to check the name
-def name(MyName):
+def check_name(MyName):
     if MyName == "Vlad":
         return "Sup Vlad"
     if MyName != "Vlad":
